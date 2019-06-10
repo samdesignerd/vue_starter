@@ -1,0 +1,6 @@
+*,*:after,*:before{margin:0; padding: 0;box-sizing: border-box;cursor: default}
+li,ol,ul{list-style-type: none}
+a{text-decoration: none; color: inherit;display: inline-block;}
+svg{display: block;}
+input, textarea{border: none; outline: none; font-size: inherit; font-family: inherit; cursor: text}
+textarea{background-color:transparent;resize:none;}
