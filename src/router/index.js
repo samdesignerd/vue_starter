@@ -8,13 +8,17 @@ let routes = [
     path: '/',
     component: 'landing-page',
   },
+  {
+    path: '*',
+    component: '404',
+  },
 ]
-
-// routes.push(...require('./routes/design.js').default)
 
 export default new Router({
   routes: routes.map((route)=>{
-    route.component = require(`../components/pages/${route.component}.vue`).default
+    if (route.component) {
+      route.component = require(`../components/pages/${route.component}/p-layout.vue`).default
+    }
     return route
   })
 })

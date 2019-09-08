@@ -1,7 +1,8 @@
 <template>
   <div id="app">
+    <o-nav></o-nav>
     <div class="router-wrap">
-      <router-view></router-view>
+      <router-view class="p-router-view"></router-view>
     </div>
   </div>
 </template>
@@ -9,6 +10,9 @@
 <script>
 export default {
   name: 'app',
+  components: {
+    'o-nav': require('./material/nav/o-nav.vue').default
+  },
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'

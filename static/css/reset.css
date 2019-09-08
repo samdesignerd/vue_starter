@@ -1,4 +1,4 @@
-*,*:after,*:before{margin:0; padding: 0;box-sizing: border-box;cursor: default}
+*,*:after,*:before{margin:0; padding: 0;box-sizing: border-box}
 li,ol,ul{list-style-type: none}
 a{text-decoration: none; color: inherit;display: inline-block;}
 svg{display: block;}
