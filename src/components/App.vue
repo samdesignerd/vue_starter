@@ -31,3 +31,7 @@ export default {
   /* margin-top: 60px; */
 }
 </style>
+<style lang="less">
+@import url("../assets/css/style.less");
+@import url("../assets/css/components.less");
+</style>
