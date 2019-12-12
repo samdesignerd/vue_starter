@@ -1,6 +1,6 @@
 import Vue from 'vue'
-import App from './components/App.vue'
-import commons from './components/commons';
+import App from './widgets/App.vue'
+import commons from './widgets/commons';
 
 commons.forEach(component => {
     Vue.component(component.name, component);
