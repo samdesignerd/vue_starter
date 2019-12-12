@@ -1,8 +1,8 @@
 import Vue from 'vue'
-import App from './widgets/App.vue'
-import commons from './widgets/commons';
+import App from './src/widgets/App.vue'
+import Commons from './src/widgets/commons';
 
-commons.forEach(component => {
+Commons.forEach(component => {
     Vue.component(component.name, component);
 });
 
